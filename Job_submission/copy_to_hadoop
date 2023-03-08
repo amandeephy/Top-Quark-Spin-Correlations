@@ -1,5 +1,0 @@
-#!/bin/bash
-for i in {1..61}
-do 
-gfal-copy TTJets_DiLept_TuneCUETP8M1_14TeV-madgraphMLM-pythia8_200PU_$i.root gsiftp://cms-gridftp.rcac.purdue.edu/store/user/abakshi/TTBar_Delphes/ 
-done
