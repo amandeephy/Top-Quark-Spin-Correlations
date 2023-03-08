@@ -1,5 +1,0 @@
-#!/bin/bash
-for i in {1..21}
-do
-echo ./Ntuplizer.py -i /mnt/hadoop/store/user/abakshi/TTBar_Delphes/TTJets_DiLept_TuneCUETP8M1_14TeV-madgraphMLM-pythia8_200PU_${i}.root  -o /depot/cms/top/bakshi3/TTBar_Ntuples/Ntuple_$i.root >> Parafly_inputs_ttbar_1 
-done
